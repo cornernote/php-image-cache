@@ -2,7 +2,7 @@
 Image Cache using phpThumb and Mod_Rewrite
 ----------------------------------
 
-Copyright (c) 2012 cornernote, Brett O'Donnell <cornernote@gmail.com>
+Copyright (c) 2012 Brett O'Donnell <brett@mrphp.com.au>
 
 Source Code: https://github.com/cornernote/php-image-cache
 Home Page: http://mrphp.com.au/blog/image-cache-using-phpthumb-and-modrewrite
