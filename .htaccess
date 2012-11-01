@@ -1,0 +1,13 @@
+# Image Cache using phpThumb and Mod_Rewrite
+#
+# Copyright (c) 2012 Brett O'Donnell <brett@mrphp.com.au>
+# Source Code: https://github.com/cornernote/php-image-cache
+# Home Page: http://mrphp.com.au/blog/image-cache-using-phpthumb-and-modrewrite
+# License: GPLv3
+
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php?thumb=$1 [L,QSA]
+</IfModule>
